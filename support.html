@@ -7,7 +7,7 @@
   <style>
     :root { --bg: #070B14; --card: #101829; --border: rgba(34,211,238,0.22); --cyan: #22D3EE; --gold: #FBBF24; --text: #F8FAFC; --muted: #CBD5E1; }
     body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
-    .wrap { max-width: 840px; margin: 0 auto; padding: 40px 20px 64px; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 40px 20px 64px; }
     .card { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 28px 26px; margin-bottom: 20px; }
     h1 { margin-top: 0; font-size: 27px; color: var(--cyan); }
     h2 { font-size: 18px; color: var(--gold); margin-top: 20px; }
@@ -21,36 +21,49 @@
     <div class="nav"><a href="index.html">&larr; Ana Sayfa</a> &middot; <a href="privacy.html">Gizlilik Politikası</a> &middot; <a href="terms.html">Kullanım Koşulları</a></div>
 
     <div class="card">
-      <h1>Sublaj Destek Merkezi ve TV Uyumluluk Rehberi</h1>
-      <p>Her türlü kurulum sorusu, geri bildirim, KVKK başvurusu ve abonelik desteği için bize doğrudan ulaşabilirsiniz:<br>
+      <h1>Sublaj Destek Merkezi ve TV Uyumluluk Rehberi (TR)</h1>
+      <p>Her türlü kurulum sorusu, geri bildirim, KVKK başvurusu ve abonelik desteği için bize ulaşabilirsiniz:<br>
       <strong>Geliştirici:</strong> Ertuğrul Güral (Kadıköy, İstanbul, Türkiye)<br>
-      <strong>E-posta / Email:</strong> <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a></p>
+      <strong>E-posta:</strong> <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a></p>
 
       <h2>Desteklenen Modlar ve Bilinen Teknik Sınırlamalar</h2>
       <ul>
-        <li><strong>Telefon &amp; Kulaklık Modu (TV İşletim Sisteminden Bağımsız Mod):</strong> Televizyon veya monitör üzerinde herhangi bir kurulum gerektirmez; altyazılar iPhone/iPad ekranında, canlı sesli dublaj ise kulaklık veya telefon hoparlöründe çalışır (aktif yerel ev Wi-Fi bağlantısı ve uyumlu PS5 Remote Play oturumu gerektirir).</li>
-        <li><strong>Android TV / Google TV (Sony Bravia Android/Google TV, TCL, Philips, Toshiba, Xiaomi vb.):</strong> Televizyonda Google Play Store ve <em>Geliştirici Seçenekleri &rarr; USB/Ağ Hata Ayıklama</em> açık olmalıdır. Android 11/13+ sürümlerinde ağ hata ayıklama port davranışı TV modeline göre farklılık gösterebilir; otomatik taramada görünmezse kurulum sihirbazından TV IP adresi elle girilebilir.</li>
-        <li><strong>HbbTV 2.0 Akıllı TV'ler (Vestel, Toshiba, Arçelik, Beko, Grundig, Seçili Philips vb.):</strong> TV menüsünden HbbTV ve gizlilik onayının açık olması gerekir. Her üretici veya yazılım sürümü HDMI kaynağı üzerinde dışarıdan HbbTV Companion Screen (DIAL) başlatılmasına izin vermeyebilir.</li>
-        <li><strong>LG webOS &amp; Samsung Tizen:</strong> LG Content Store'daki resmi <em>Developer Mode</em> uygulaması (oturum süresi LG tarafından sınırlandırılmış olup süresi dolduğunda yenilenmesi gerekebilir) veya Samsung <em>Developer Mode</em> üzerinden yerel ağ kurulumu gerektirir.</li>
-        <li><strong>Kapalı Sistemli Standart Linux TV'ler (Ör. Google Play Store bulunmayan eski Sony Bravia W6/WE6/X70 Linux serileri vb.):</strong> Bu televizyonlar üçüncü taraf uygulama yüklemeye ve HDMI üstü HbbTV katmanına üretici tarafından kapatıldığından, bu modellerde doğrudan <strong>Telefon &amp; Kulaklık Modu</strong> kullanılmalıdır.</li>
+        <li><strong>Telefon &amp; Kulaklık Modu (TV İşletim Sisteminden Bağımsız Mod):</strong> Televizyon veya monitör üzerinde uygulama/katman kurulumu gerektirmez; altyazılar iPhone/iPad ekranında, canlı sesli dublaj ise kulaklık veya telefon hoparlöründe çalışır (uyumlu yerel Wi-Fi ağı ve aktif PS5 Remote Play oturumu gerektirir).</li>
+        <li><strong>Android TV / Google TV (Play Store bulunan Sony Bravia, TCL, Philips, Toshiba, Xiaomi vb.):</strong> Televizyonda Google Play Store ve <em>Geliştirici Seçenekleri &rarr; USB/Ağ Hata Ayıklama</em> (standart TCP ADB port 5555 üzerinden yerel kurulum) açık olmalıdır. Bazı Android 11+ / Android 13+ TV üretici yazılımlarında kablosuz hata ayıklama port numaraları ve izin pencereleri modele göre farklılık gösterebilir; otomatik taramada görünmeyen TV'lerde IP adresi kurulum sihirbazından elle girilebilir.</li>
+        <li><strong>HbbTV 2.0 Akıllı TV'ler (Seçili Vestel, Toshiba, Arçelik, Beko, Grundig, Philips vb.):</strong> TV menüsünden HbbTV ve gizlilik onayının açık olması gerekir. Her üretici, model yılı veya yazılım sürümü HDMI kaynağı üzerinde dışarıdan HbbTV Companion Screen (DIAL) katmanı başlatılmasını desteklemeyebilir.</li>
+        <li><strong>LG webOS &amp; Samsung Tizen:</strong> LG Content Store'daki resmi <em>Developer Mode</em> uygulaması (oturum süresi LG tarafından sınırlandırılmış olup süresi dolduğunda LG uygulamasından yenilenmesi gerekebilir) veya Samsung <em>Developer Mode</em> (SDB port 26101) üzerinden yerel ağ kurulumu gerektirir.</li>
+        <li><strong>Google Play Store Bulunmayan Kapalı Linux TV Modelleri:</strong> Bazı model yıllarında üretilen Android olmayan standart Linux tabanlı Smart TV varyantları (örneğin uygulama mağazası bulunmayan eski Linux tabanlı Sony Bravia varyantları vb.) üçüncü taraf uygulama yüklemeye ve HDMI üstü HbbTV katmanına kapalı olduğundan, bu televizyonlarda <strong>Telefon &amp; Kulaklık Modu</strong> kullanılmalıdır.</li>
       </ul>
 
       <h2>Sıkça Sorulan Sorular (SSS)</h2>
       <p><strong>1. DualSense kolunu açınca bağlantı neden kesiliyor?</strong><br>
-      PS5 aynı PSN hesabına aynı anda hem kolun hem Remote Play oturumunun bağlanmasına izin vermez. Kurulum sihirbazında gösterildiği üzere konsolunuza eklediğiniz ikinci kullanıcı profiliyle eşleştirme yapıp, kolun PS tuşundan <em>"Oturumu Kapat"</em> yerine yalnızca <strong>"Kullanıcı Değiştir"</strong> seçeneğiyle Ana Hesabınıza geçebilirsiniz.</p>
+      PS5 aynı PSN hesabına aynı anda hem DualSense kolun hem Remote Play oturumunun bağlanmasına izin vermez. Kurulum sihirbazında gösterildiği üzere konsolunuza eklediğiniz ikinci kullanıcı profiliyle eşleştirme yapıp, kolun PS tuşundan <em>"Oturumu Kapat"</em> yerine yalnızca <strong>"Kullanıcı Değiştir"</strong> seçeneğiyle Ana Hesabınıza geçebilirsiniz.</p>
 
       <p><strong>2. Satın aldığım aboneliği veya tek seferlik paketi yeni telefonuma nasıl aktarırım?</strong><br>
       Aynı Apple Hesabı ile giriş yapıp uygulama içindeki <em>Sublaj Pro</em> ekranından <strong>"Satın Alımları Geri Yükle (Restore Purchases)"</strong> düğmesine dokunmanız yeterlidir.</p>
     </div>
 
     <div class="card" lang="en">
-      <h1>Quick Support &amp; Hardware Compatibility (EN)</h1>
-      <p>Need help with setup, Smart TV compatibility, or your Sublaj Pro plan? Contact <strong>Ertuğrul Güral</strong> (Kadıköy, Istanbul, Türkiye) at <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a>.</p>
+      <h1>Sublaj Support Center &amp; TV Compatibility Guide (EN)</h1>
+      <p>For setup assistance, feedback, data privacy requests, or subscription support, contact us directly:<br>
+      <strong>Developer:</strong> Ertuğrul Güral (Kadıköy, Istanbul, Türkiye)<br>
+      <strong>Email:</strong> <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a></p>
+
+      <h2>Supported Display Modes &amp; Known Technical Limitations</h2>
       <ul>
-        <li><strong>Phone &amp; Headphones Mode (TV-OS Independent):</strong> Requires zero TV or monitor setup; subtitles appear on your iPhone/iPad screen and voice dubbing plays through headphones or iPhone speaker (requires a compatible home Wi-Fi network and active PS5 Remote Play session).</li>
-        <li><strong>Smart TV Overlays (HbbTV, Android/Google TV, LG webOS, Samsung Tizen):</strong> Overlay support depends on TV OS, firmware version, and developer-mode availability (note: LG webOS Developer Mode sessions are time-limited by LG, and non-Android closed Linux TVs such as older non-Play-Store Sony Bravia Linux models require Phone &amp; Headphones Mode). Use the free 100-line Starter Pack and built-in TV diagnostic test before purchasing.</li>
-        <li><strong>Restore Purchases:</strong> Open Sublaj &rarr; Tap the <em>Pro</em> badge &rarr; Tap <em>Restore Purchases</em>.</li>
+        <li><strong>Phone &amp; Headphones Mode (TV-OS Independent Mode):</strong> Requires no app or overlay installation on your TV or monitor; subtitles appear on your iPhone/iPad screen and live voice dubbing plays through your headphones or iPhone speaker (requires a compatible local Wi-Fi network and an active PS5 Remote Play session).</li>
+        <li><strong>Android TV / Google TV (Play Store-equipped Sony Bravia, TCL, Philips, Toshiba, Xiaomi, etc.):</strong> Requires Google Play Store and <em>Developer Options &rarr; USB/Network Debugging</em> enabled on the TV (uses standard local TCP ADB port 5555). On certain Android 11+ / Android 13+ TV firmware builds, wireless debugging port behavior and approval prompts may vary by manufacturer; if auto-scan does not list your TV, you can enter your TV's IP address manually in the setup wizard.</li>
+        <li><strong>HbbTV 2.0 Smart TVs (Select Vestel, Toshiba, Arçelik, Beko, Grundig, Philips models, etc.):</strong> Requires HbbTV and privacy consent enabled in TV settings. Not every manufacturer, model year, or firmware version permits launching an HbbTV Companion Screen (DIAL) overlay over an active HDMI input.</li>
+        <li><strong>LG webOS &amp; Samsung Tizen:</strong> Requires local-network installation via the official <em>Developer Mode</em> app from the LG Content Store (note that LG enforces a time-limited Developer Mode session timer that may need periodic renewal in the LG app) or Samsung <em>Developer Mode</em> (SDB port 26101).</li>
+        <li><strong>Non-Android Closed Linux Smart TV Variants:</strong> Certain non-Android Linux-based Smart TV variants without Google Play Store (for example, older Linux-based Sony Bravia variants with fixed built-in apps) block third-party app installation and HDMI HbbTV overlays by manufacturer design; please use <strong>Phone &amp; Headphones Mode</strong> with those TVs.</li>
       </ul>
+
+      <h2>Frequently Asked Questions (FAQ)</h2>
+      <p><strong>1. Why does the stream disconnect when I turn on my DualSense controller?</strong><br>
+      PS5 does not allow a DualSense controller and a Remote Play session on the exact same PSN profile simultaneously. As shown in the setup wizard, pair Sublaj with a secondary user profile on your console, then press the PS button on your controller and choose <strong>"Switch User"</strong> (rather than <em>"Log Out"</em>) to play on your Main Account.</p>
+
+      <p><strong>2. How do I transfer my subscription or one-time purchase to a new iPhone?</strong><br>
+      Sign in with the same Apple Account and tap <strong>"Restore Purchases"</strong> on the <em>Sublaj Pro</em> screen inside the App.</p>
     </div>
   </div>
 </body>
