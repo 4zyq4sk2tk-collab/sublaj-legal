@@ -24,51 +24,44 @@
     <div class="card">
       <h1>Gizlilik Politikası ve KVKK Aydınlatma Metni (TR)</h1>
       <p><strong>Son Güncelleme:</strong> 17 Kasım 2026</p>
-      <p>İşbu Gizlilik Politikası ve Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") m. 10 ve Avrupa Birliği Genel Veri Koruma Tüzüğü ("GDPR") m. 13 uyarınca Sublaj ("Uygulama") kullanıcılarını bilgilendirmek amacıyla hazırlanmıştır.</p>
+      <p>İşbu Gizlilik Politikası ve Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") m. 10, Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ ve Avrupa Birliği Genel Veri Koruma Tüzüğü ("GDPR") m. 13 uyarınca Sublaj ("Uygulama") kullanıcılarını bilgilendirmek amacıyla hazırlanmıştır.</p>
 
       <h2>1. Veri Sorumlusunun Kimliği</h2>
       <div class="meta-box">
         <p style="margin:0;">
           <strong>Veri Sorumlusu / Geliştirici:</strong> Ertuğrul Güral<br>
-          <strong>Adres:</strong> Kadıköy, İstanbul, Türkiye<br>
-          <strong>E-posta:</strong> <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a>
+          <strong>Yerleşim Yeri / İletişim Adresi:</strong> Kadıköy, İstanbul, Türkiye<br>
+          <strong>Başvuru ve İletişim E-postası:</strong> <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a>
         </p>
       </div>
-      <p>Sublaj, geliştirici tarafından işletilen merkezi bir kullanıcı hesabı veritabanı veya sürekli çalışan bir veri toplama sunucusu bulunmaksızın, yerel öncelikli (<em>local-first</em>) mimariyle çalışacak şekilde tasarlanmıştır.</p>
+      <p>Sublaj, geliştirici tarafından işletilen merkezi bir kullanıcı hesabı veritabanı veya sürekli çalışan bir veri toplama sunucusu bulunmaksızın çalışacak şekilde tasarlanmıştır. Bununla birlikte, uygulama işlevlerinin yerine getirilmesi sırasında cihaz üzerinde ve kullanıcının etkinleştirdiği üçüncü taraf servisler nezdinde aşağıda açıklanan veri işleme faaliyetleri gerçekleşebilir.</p>
 
-      <h2>2. İşlenen Veriler, İşleme Amaçları ve Hukuki Sebepler</h2>
-      <p>Uygulamanın temel işlevlerini yerine getirebilmesi için aşağıdaki veriler, KVKK m. 5/2-(c) (<em>bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması</em>) ve m. 5/2-(f) (<em>meşru menfaat</em>) hukuki sebeplerine dayanılarak cihaz üzerinde işlenebilir:</p>
+      <h2>2. İşlenen Veri Kategorileri, Toplama Yöntemi, Amaçlar ve Hukuki Sebepler</h2>
+      <p>Veriler; kullanıcının uygulama arayüzüne yaptığı doğrudan girişler, yerel ev Wi-Fi ağındaki konsol akışı ve Apple StoreKit API'leri aracılığıyla otomatik veya kısmen otomatik yollarla, KVKK m. 5/2-(c) (<em>bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması</em>) ve m. 5/2-(f) (<em>temel hak ve özgürlüklere zarar vermemek kaydıyla meşru menfaat</em>) hukuki sebeplerine dayanılarak işlenir:</p>
       <ul>
-        <li><strong>Geçici Oyun Görüntüleri ve OCR Metinleri:</strong> Konsoldan yerel ev Wi-Fi ağınız üzerinden alınan video akışı yalnızca anlık olarak cihazınızın uçucu RAM belleğinde Apple <em>Vision</em> çerçevesi ile metne dönüştürülür. Oyun görüntüleri veya video akışı kalıcı olarak diske kaydedilmez ve geliştiriciye ait herhangi bir sunucuya yüklenmez.</li>
-        <li><strong>Eşleştirme ve Oturum Tanımlayıcıları:</strong> Yerel konsol eşleştirme için gerekli hesap/cihaz tanımlayıcıları, yerel oturum anahtarları, başlangıç çeviri hakkı sayacı ve kullanıcının isteğe bağlı olarak girdiği üçüncü taraf API anahtarları yalnızca kullanıcının kendi cihazındaki donanım korumalı <strong>iOS Keychain</strong> alanında saklanır. PlayStation Network giriş işlemi doğrudan Sony'nin resmi kimlik doğrulama sayfasında gerçekleşir; kullanıcı parolaları Sublaj tarafından görülmez ve kaydedilmez.</li>
-        <li><strong>Uygulama Tercihleri:</strong> Seçilen kaynak/hedef dil, seslendirme hızı ve arayüz tercihleri cihaz içi yerel ayarlarda (<em>UserDefaults</em>) tutulur.</li>
-        <li><strong>Akıllı TV Yerel Ağ İletimi:</strong> Çevrilen altyazı metinleri ve cihazda üretilen ses kesitleri, yalnızca aynı yerel Wi-Fi ağında eşleştirdiğiniz televizyonunuza tek kullanımlık oturum belirteci (<em>session token</em>) korumalı yerel HTTP bağlantısı üzerinden gönderilir; bu aktarım internete açık değildir.</li>
-        <li><strong>Abonelik ve Satın Alma Bilgileri:</strong> Satın alma ve abonelik yetki doğrulamaları Apple <strong>StoreKit 2</strong> üzerinden yürütülür; kredi kartı veya finansal bilgileriniz geliştirici tarafından görülmez ve saklanmaz.</li>
+        <li><strong>Geçici Oyun Görüntüleri ve OCR Metinleri:</strong> Konsoldan yerel ev Wi-Fi ağınız üzerinden alınan video kareleri yalnızca anlık olarak cihazınızın uçucu RAM belleğinde Apple <em>Vision</em> çerçevesi ile metne dönüştürülür; video akışı veya ekran görüntüleri kalıcı olarak diske kaydedilmez ve geliştiriciye aktarılmaz.</li>
+        <li><strong>Eşleştirme Bilgileri ve API Anahtarları (iOS Keychain):</strong> Konsol yerel eşleştirme kimlikleri (8 baytlık hesap tanımlayıcısı ve yerel oturum anahtarları), başlangıç çeviri hakkı sayacı ve kullanıcının isteğe bağlı girdiği kişisel API anahtarları yalnızca kullanıcının iPhone/iPad cihazındaki donanım şifreli <strong>iOS Keychain</strong> kasasında saklanır. PlayStation Network girişi doğrudan Sony'nin kimlik doğrulama sayfasında yapılır; kullanıcı parolaları Sublaj tarafından görülmez ve kaydedilmez.</li>
+        <li><strong>Dil ve Arayüz Tercihleri:</strong> Seçilen kaynak/hedef dil ve seslendirme tercihleri cihaz içi yerel ayarlarda (<em>UserDefaults</em>) tutulur.</li>
+        <li><strong>Akıllı TV Yerel Ağ İletimi ve Güvenlik Mimarisi:</strong> Çevrilen altyazı metinleri ve sentezlenen <code>.wav</code> ses kesitleri, aynı ev Wi-Fi ağındaki eşleştirilmiş televizyonunuza yerel HTTP/SSE sunucusu (port 8123) üzerinden iletilir. Bu yerel sunucuda kriptografik rastgele oturum belirteci (<em>session token</em>), yalnızca eşleştirilen TV IP adresine izin veren IP kilidi (<em>allowedClientHost</em>) ve hücresel/mobil veri arayüzü yasağı (<em>prohibitedInterfaceTypes = [.cellular]</em>) uygulanır; ancak yerel HTTP trafiği TLS şifrelemesi kullanmaz ve yalnızca kullanıcının kendi özel yerel ağında çalışır.</li>
+        <li><strong>Abonelik ve Satın Alma Durumu:</strong> Satın alma ve yetki doğrulamaları Apple <strong>StoreKit 2</strong> üzerinden yürütülür; kart ve ödeme verileri münhasıran Apple tarafından işlenir.</li>
       </ul>
 
-      <h2>3. Üçüncü Taraf Hizmetleri ve Yurt Dışına Veri Aktarımı</h2>
+      <h2>3. Üçüncü Taraf Alıcılar ve Yurt Dışına Veri Aktarımı (KVKK Madde 9)</h2>
       <ul>
-        <li><strong>Apple Cihaz İçi Çeviri ve Seslendirme:</strong> Desteklenen dil çiftlerinde <em>Apple Translation</em>, gömülü <em>Antalia-2 Mini</em> Türkçe nöral ses motoru ve <em>iOS AVSpeechSynthesizer</em> doğrudan cihaz üzerinde çevrimdışı çalışabilir.</li>
-        <li><strong>İsteğe Bağlı Kişisel DeepL API Kullanımı:</strong> Kullanıcı kendi tercihiyle Ayarlar menüsüne kişisel bir <strong>DeepL API</strong> anahtarı eklediğinde, çevrilecek altyazı metinleri doğrudan kullanıcının cihazından HTTPS üzerinden yurt dışında yerleşik <strong>DeepL SE</strong> sunucularına iletilir (KVKK m. 9 kapsamında kullanıcının açık tercihi ve sözleşmenin ifası). Oyun ekranındaki metinlerde kullanıcı adı veya sohbet mesajı bulunabileceğinden, söz konusu aktarım ve veri saklama koşulları kullanıcının kendi seçtiği DeepL API planının (<em>API Free</em> veya <em>API Pro</em>) kendi gizlilik politikası ve hizmet şartlarına tabidir.</li>
-        <li><strong>Apple StoreKit:</strong> Satın alma ve abonelik yönetimi Apple Inc. altyapısı üzerinden yürütülür.</li>
-        <li><strong>Gelecekteki İsteğe Bağlı Bulut Hizmetleri:</strong> İleride isteğe bağlı bir bulut çeviri hizmeti sunulması hâlinde, kapsamı, işlenen veriler ve aktarım koşulları özellik etkinleştirilmeden önce kullanıcıya ayrıca açıklanacaktır.</li>
+        <li><strong>Cihaz İçi İşleme:</strong> Desteklenen dil çiftlerinde <em>Apple Translation</em> çevrimdışı paketleri, gömülü <em>Antalia-2 Mini</em> nöral ses modeli ve <em>iOS AVSpeechSynthesizer</em> doğrudan cihaz üzerinde çevrimdışı çalışır.</li>
+        <li><strong>İsteğe Bağlı Kişisel DeepL API Aktarımı:</strong> Kullanıcı kendi isteğiyle Ayarlar menüsüne kişisel bir <strong>DeepL API</strong> anahtarı girdiğinde ve bu özelliği kullandığında, ekrandan okunan metin (oyun ekranında kullanıcı adı veya sohbet mesajı varsa bunlar dahil) çeviri amacıyla doğrudan kullanıcının cihazından HTTPS (TLS) üzerinden yurt dışında yerleşik <strong>DeepL SE</strong> sunucularına iletilir. Bu arızi/doğrudan aktarım, KVKK m. 9 kapsamında kullanıcının açık iradesi/rızası ve talep ettiği çeviri işlevinin ifası hukuki sebebine dayanır. Veri işleme ve saklama koşulları, kullanıcının kendi seçtiği DeepL API planının (<em>API Free</em> veya <em>API Pro</em>) kendi gizlilik politikası ve hizmet şartlarına tabidir.</li>
+        <li><strong>Apple Inc.:</strong> Uygulama içi satın alma ve abonelik doğrulamaları Apple StoreKit altyapısı üzerinden yürütülür.</li>
       </ul>
 
-      <h2>4. Saklama Süreleri, Reklam ve Analitik</h2>
-      <p>Cihaz üzerinde (iOS Keychain ve yerel ayarlarda) tutulan bilgiler, kullanıcı uygulama içinden eşleştirmeyi sıfırlayana veya uygulamayı cihazından kaldırana kadar yalnızca kullanıcının cihazında saklanır. Sublaj içinde reklam ağı, reklam kimliği (<em>IDFA</em>) takibi veya üçüncü taraf davranışsal analitik SDK'sı bulunmamaktadır.</p>
-
-      <h2>5. İlgili Kişinin Hakları (KVKK Madde 11)</h2>
-      <p>KVKK'nın 11. maddesi uyarınca ilgili kişiler veri sorumlusuna başvurarak;</p>
+      <h2>4. Saklama Süreleri, Veri Silme Yöntemi ve Analitik</h2>
       <ul>
-        <li>Kişisel verilerinin işlenip işlenmediğini öğrenme,</li>
-        <li>Kişisel verileri işlenmişse buna ilişkin bilgi talep etme,</li>
-        <li>Kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,</li>
-        <li>Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme,</li>
-        <li>Kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme,</li>
-        <li>KVKK m. 7'de öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya yok edilmesini isteme,</li>
-        <li>İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme ve kanuna aykırı işleme sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme</li>
+        <li><strong>Saklama ve Silme Yöntemi:</strong> RAM'deki görüntü kareleri işlendikten hemen sonra silinir. Cihazdaki <em>iOS Keychain</em> içinde tutulan konsol eşleştirme kayıtlarını Kurulum/Ayarlar ekranından eşleştirmeyi sıfırlayarak; kişisel DeepL API anahtarını Ayarlar içindeki anahtar alanını temizleyerek; tüm yerel uygulama verilerini ise uygulamayı cihazınızdan kaldırarak dilediğiniz an silebilirsiniz.</li>
+        <li><strong>Reklam ve Takip:</strong> Sublaj içinde reklam ağı, <em>IDFA</em> takibi veya üçüncü taraf davranışsal analitik SDK'sı bulunmamaktadır.</li>
       </ul>
-      <p>haklarına sahiptir. Bu haklarınıza ilişkin taleplerinizi <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a> e-posta adresine yazılı olarak iletebilirsiniz.</p>
+
+      <h2>5. İlgili Kişinin Hakları ve Başvuru Yöntemi (KVKK Madde 11)</h2>
+      <p>KVKK'nın 11. maddesi uyarınca ilgili kişiler veri sorumlusuna başvurarak; (a) kişisel verilerinin işlenip işlenmediğini öğrenme, (b) işlenmişse buna ilişkin bilgi talep etme, (c) işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, (ç) yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, (d) eksik veya yanlış işlenmişse düzeltilmesini isteme, (e) KVKK m. 7 şartları çerçevesinde silinmesini veya yok edilmesini isteme, (f) yapılan işlemlerin aktarıldığı üçüncü kişilere bildirilmesini isteme, (g) münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhine bir sonucun ortaya çıkmasına itiraz etme ve (ğ) kanuna aykırı işleme sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme haklarına sahiptir.</p>
+      <p><strong>Başvuru Usulü:</strong> Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ uyarınca taleplerinizi <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a> adresine e-posta yoluyla iletebilirsiniz. Başvurularınız niteliğine göre en kısa sürede ve en geç <strong>30 (otuz) gün</strong> içinde ücretsiz olarak sonuçlandırılır.</p>
     </div>
 
     <div class="card" lang="en">
@@ -79,29 +72,29 @@
       <div class="meta-box">
         <p style="margin:0;">
           <strong>Data Controller / Developer:</strong> Ertuğrul Güral<br>
-          <strong>Location:</strong> Kadıköy, Istanbul, Türkiye<br>
-          <strong>Contact Email:</strong> <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a>
+          <strong>Location / Address:</strong> Kadıköy, Istanbul, Türkiye<br>
+          <strong>Privacy &amp; Rights Contact Email:</strong> <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a>
         </p>
       </div>
-      <p>Sublaj ("the App") is designed around a local-first architecture without a developer-operated user account database or persistent data-collection backend server.</p>
+      <p>Sublaj ("the App") operates without a developer-hosted user account database or persistent backend server. Below is a transparent breakdown of local on-device processing and optional third-party transfers under GDPR Art. 13 and Turkish KVKK Art. 10.</p>
 
-      <h2>2. Data Processed &amp; Purposes of Processing</h2>
+      <h2>2. Categories of Data, Collection Methods, Purposes &amp; Legal Bases</h2>
+      <p>Data is processed automatically from your local console stream or via direct user input in the App interface to perform the requested service (GDPR Art. 6(1)(b) contract performance &amp; Art. 6(1)(f) legitimate interest):</p>
       <ul>
-        <li><strong>Ephemeral Video &amp; OCR Text:</strong> Gameplay frames streamed from your console over your home Wi-Fi are decoded transiently in volatile RAM for on-device text recognition via Apple's Vision framework. Video streams and screenshots are never recorded to disk or uploaded to developer servers.</li>
-        <li><strong>Local Pairing &amp; Keychain Data:</strong> Console pairing identifiers, local session keys, starter quota state, and optional user-entered third-party API keys are stored locally in your device's hardware-backed <strong>iOS Keychain</strong>. PSN sign-in occurs directly on Sony's authentication page; Sublaj never sees or stores your password.</li>
-        <li><strong>Local Smart TV Delivery:</strong> Translated subtitles and synthesized voice clips are delivered strictly within your private local Wi-Fi network to your paired TV over a session-token-protected local HTTP connection (not exposed to the public internet).</li>
-        <li><strong>Subscriptions &amp; Purchases:</strong> Entitlement checks and billing are handled by Apple via <strong>StoreKit 2</strong> (GDPR Art. 6(1)(b) contract performance).</li>
+        <li><strong>Ephemeral Video &amp; OCR Text:</strong> Gameplay frames streamed over your private home Wi-Fi are decoded transiently in volatile RAM for Apple Vision OCR and discarded immediately; no video or screenshots are saved to disk or uploaded to the developer.</li>
+        <li><strong>Local Pairing &amp; API Keys (iOS Keychain):</strong> Console pairing identifiers (8-byte account ID and local session keys), starter quota state, and optional user-entered API keys are stored solely in your device's hardware-encrypted <strong>iOS Keychain</strong>. PSN sign-in takes place directly on Sony's authentication page; Sublaj never sees or stores your password.</li>
+        <li><strong>Local Smart TV Delivery &amp; Security Controls:</strong> Translated text and synthesized <code>.wav</code> audio clips are sent to your paired Smart TV over a local HTTP/SSE server (port 8123) protected by a cryptographic random session token, paired-TV IP locking (<em>allowedClientHost</em>), and cellular interface blocking (<em>prohibitedInterfaceTypes = [.cellular]</em>). Note that local LAN HTTP/SSE traffic does not use TLS encryption and operates strictly within your private local Wi-Fi network.</li>
+        <li><strong>Purchases &amp; Subscriptions:</strong> Entitlement verification and billing are processed by Apple Inc. via <strong>StoreKit 2</strong>.</li>
       </ul>
 
-      <h2>3. Third-Party Services &amp; Cross-Border Transfers</h2>
+      <h2>3. Third-Party Recipients &amp; Cross-Border Transfers</h2>
       <ul>
-        <li><strong>On-Device Engines:</strong> Supported <em>Apple Translation</em> language packs, embedded <em>Antalia-2 Mini</em> neural voices, and <em>iOS AVSpeechSynthesizer</em> run directly on your device.</li>
-        <li><strong>Optional User-Provided DeepL API Key:</strong> If you voluntarily configure your own <strong>DeepL API</strong> key in Settings, extracted subtitle text (which could include on-screen player names or chat text) is transmitted over HTTPS directly from your device to <strong>DeepL SE</strong> to return the translation. Data handling and retention by DeepL depend on your specific DeepL API plan (<em>API Free</em> vs. <em>API Pro</em>) and DeepL's own Privacy Policy and Terms.</li>
-        <li><strong>Zero Ad Tracking:</strong> Sublaj contains no advertising SDKs, IDFA tracking, or behavioral analytics.</li>
+        <li><strong>On-Device Engines:</strong> Supported <em>Apple Translation</em> offline packs, embedded <em>Antalia-2 Mini</em> neural voices, and <em>iOS AVSpeechSynthesizer</em> run locally on your device.</li>
+        <li><strong>Optional User-Provided DeepL API Key:</strong> When you voluntarily enter your own <strong>DeepL API</strong> key in Settings, extracted subtitle text (which may include on-screen usernames or chat messages) is sent directly from your device over HTTPS (TLS) to <strong>DeepL SE</strong> based on your explicit configuration and request to translate (GDPR Art. 49(1)(a)/(b); KVKK Art. 9). Retention and processing by DeepL are governed by your specific DeepL API plan (<em>API Free</em> vs. <em>API Pro</em>) and DeepL's own Privacy Policy and Terms.</li>
       </ul>
 
-      <h2>4. Your Privacy Rights (GDPR &amp; KVKK)</h2>
-      <p>Depending on your jurisdiction, you have the right to request information, access, rectification, erasure, restriction, or objection regarding personal data processing. Because local pairing data resides solely on your device, you may erase it at any time by resetting pairings inside the App or uninstalling the App. For any privacy inquiries or rights requests, contact <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a>.</p>
+      <h2>4. Retention, How to Delete Your Data &amp; Your Rights</h2>
+      <p>RAM video frames are erased immediately after OCR. You can delete stored Keychain pairing tokens at any time by resetting console/TV pairing inside the App, delete your DeepL API key by clearing the key field in Settings, or erase all local App data by uninstalling the App. Sublaj contains zero ad SDKs, IDFA tracking, or behavioral analytics. Under GDPR (Arts. 15&ndash;21) and KVKK (Art. 11), you have the right to request access, rectification, erasure, restriction, or objection by emailing <a href="mailto:sublajmain@gmail.com">sublajmain@gmail.com</a> (requests are answered free of charge within 30 days).</p>
     </div>
   </div>
 </body>
